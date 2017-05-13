@@ -1,0 +1,6 @@
+package: github.com/k-nishijima/pollyexample
+import:
+- package: github.com/aws/aws-sdk-go
+  subpackages:
+  - aws
+- package: github.com/pkg/errors
